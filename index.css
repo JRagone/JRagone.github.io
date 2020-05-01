@@ -11,12 +11,17 @@
   src: url("fonts/Nintendo-DS-BIOS.ttf");
 }
 h1 {
-  font-family: pixel2;
-  font-size: 3rem;
+  font-family: Pixel;
+  font-size: 3.5rem;
   line-height: 1.75;
 }
 
 p {
+  font-family: pixel3;
+  font-size: 2rem;
+}
+
+a {
   font-family: pixel3;
   font-size: 2rem;
 }
