@@ -6,9 +6,18 @@
   font-family: pixel2;
   src: url("fonts/Fipps-Regular.otf");
 }
+@font-face {
+  font-family: pixel3;
+  src: url("fonts/Nintendo-DS-BIOS.ttf");
+}
 h1 {
   font-family: pixel2;
   font-size: 3rem;
+}
+
+p {
+  font-family: pixel3;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
