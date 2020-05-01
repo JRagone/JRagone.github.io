@@ -1,0 +1,23 @@
+{
+  "name": "jragone.github.io",
+  "version": "1.0.0",
+  "description": "## VSCode Extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRagone/JRagone.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRagone/JRagone.github.io/issues"
+  },
+  "homepage": "https://github.com/JRagone/JRagone.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
