@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".nav-link").click(function() {
         try {
-            var navbarHeight = $(this).closest("nav").height();
+            var navbarHeight = $(this).closest("nav").outerHeight();
             var url = $(this).attr("href");
             var hash = url.substring(url.indexOf("#")+1);
             var p = $("#" + hash).first();
