@@ -10,10 +10,14 @@
   font-family: pixel3;
   src: url("fonts/Nintendo-DS-BIOS.ttf");
 }
-h1 {
+h1, h2 {
   font-family: Pixel;
   font-size: 3.5rem;
   line-height: 1.75;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 p {
@@ -38,6 +42,11 @@ a {
 
 #mainNav {
   background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel {
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */

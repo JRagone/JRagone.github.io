@@ -17,6 +17,11 @@ h1 {
     line-height: 1.75;
 }
 
+h2 {
+    @extend h1;
+    font-size: 3rem;
+}
+
 p {
     font-family: pixel3;
     font-size: 2rem;
@@ -40,4 +45,9 @@ a {
 
 #mainNav {
     background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
 }
