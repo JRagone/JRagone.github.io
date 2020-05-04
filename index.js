@@ -8,6 +8,7 @@ $(document).ready(function() {
             var position = p.position().top;
             var top = position - navbarHeight;
             $("html").scrollTop(top);
+            return false;
         }
         catch(err) {
             console.error(err);
