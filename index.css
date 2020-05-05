@@ -20,9 +20,13 @@ h2 {
   font-size: 3rem;
 }
 
-p {
+p, .pixel-list {
   font-family: pixel3;
   font-size: 2rem;
+}
+
+.pixel-list {
+  list-style-type: square;
 }
 
 a {
@@ -47,6 +51,11 @@ a {
 .carousel {
   border-radius: 5px 5px 5px 5px;
   overflow: hidden;
+}
+
+.square-logo {
+  max-width: 3rem;
+  max-height: 3rem;
 }
 
 /*# sourceMappingURL=index.css.map */

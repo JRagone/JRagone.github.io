@@ -27,6 +27,11 @@ p {
     font-size: 2rem;
 }
 
+.pixel-list {
+    @extend p;
+    list-style-type: square;
+}
+
 a {
     font-family: pixel3;
     font-size: 2rem;
@@ -35,7 +40,7 @@ a {
 /* Set the border color */ 
           
 .custom-toggler.navbar-toggler { 
-    border-color: rgb(0, 123, 255); 
+    border-color: #007bff; 
 } 
 /* Setting the stroke to green using rgb values (0, 128, 0) */ 
 
@@ -50,4 +55,9 @@ a {
 .carousel {
     border-radius: 5px 5px 5px 5px;
     overflow: hidden;
+}
+
+.square-logo {
+    max-width: 3rem;
+    max-height: 3rem;
 }
