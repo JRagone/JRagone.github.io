@@ -33,8 +33,7 @@ p {
 }
 
 a {
-    font-family: pixel3;
-    font-size: 2rem;
+    @extend p;
 }
 
 /* Set the border color */ 
@@ -65,5 +64,8 @@ a {
 @media screen and (max-width: 576px) {
     .shrink {
         display: none !important;
+    }
+    .experience-format {
+        margin-left: -2rem !important;
     }
 }

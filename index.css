@@ -20,18 +20,13 @@ h2 {
   font-size: 3rem;
 }
 
-p, .pixel-list {
+p, a, .pixel-list {
   font-family: pixel3;
   font-size: 2rem;
 }
 
 .pixel-list {
   list-style-type: square;
-}
-
-a {
-  font-family: pixel3;
-  font-size: 2rem;
 }
 
 /* Set the border color */
@@ -61,6 +56,10 @@ a {
 @media screen and (max-width: 576px) {
   .shrink {
     display: none !important;
+  }
+
+  .experience-format {
+    margin-left: -2rem !important;
   }
 }
 
