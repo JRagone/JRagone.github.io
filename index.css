@@ -58,4 +58,10 @@ a {
   max-height: 3rem;
 }
 
+@media screen and (max-width: 576px) {
+  .shrink {
+    display: none !important;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
