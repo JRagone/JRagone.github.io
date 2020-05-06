@@ -16,7 +16,9 @@
     "url": "https://github.com/JRagone/JRagone.github.io/issues"
   },
   "homepage": "https://github.com/JRagone/JRagone.github.io#readme",
-  "dependencies": {},
+  "dependencies": {
+    "rfs": "^9.0.3"
+  },
   "devDependencies": {
     "bootstrap": "^4.4.1"
   }

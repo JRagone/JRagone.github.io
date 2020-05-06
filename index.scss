@@ -1,3 +1,7 @@
+@import './variables.scss';
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import "./node_modules/rfs/scss.scss";
+
 @font-face {
     font-family: Pixel;
     src: url('fonts/ka1.ttf');
@@ -13,18 +17,18 @@
 
 h1 {
     font-family: Pixel;
-    font-size: 3.5rem;
+    @include font-size(3.5rem);
     line-height: 1.25;
 }
 
 h2 {
     @extend h1;
-    font-size: 3rem;
+    @include font-size(3rem);
 }
 
 p {
     font-family: pixel3;
-    font-size: 2rem;
+    @include font-size(2rem);
 }
 
 .pixel-list {
@@ -61,7 +65,15 @@ a {
     max-height: 3rem;
 }
 
-@media screen and (max-width: 576px) {
+.embed-responsive-mario {
+    padding-bottom: 93.75%
+}
+
+.project-preview {
+    max-width: 400px;
+}
+
+@include media-breakpoint-down(xs) {
     .shrink {
         display: none !important;
     }
