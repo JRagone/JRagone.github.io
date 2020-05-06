@@ -19,11 +19,10 @@ $(document).ready(function() {
             console.error(err);
         }
     })
-    // $('video').each(function(){
-    //     if ($(this).is(":in-viewport")) {
-    //         $(this)[0].play();
-    //     } else {
-    //         $(this)[0].pause();
-    //     }
-    // })
+    $('video').on('mouseenter', function() {
+        $(this).get(0).play();
+    })
+    $('video').on('mouseout', function() {
+        $(this).get(0).pause();
+    })
 });
