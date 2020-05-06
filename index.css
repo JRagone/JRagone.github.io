@@ -9949,6 +9949,10 @@ p, a, .pixel-list {
   padding-bottom: 93.75%;
 }
 
+.embed-responsive-wolfenstein {
+  padding-bottom: 62.5%;
+}
+
 .project-preview {
   max-width: 400px;
 }
