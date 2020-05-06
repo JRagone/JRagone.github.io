@@ -7387,7 +7387,8 @@ button.bg-dark:focus {
 }
 
 .mt-0,
-.my-0 {
+.my-0,
+a {
   margin-top: 0 !important;
 }
 
@@ -7397,7 +7398,8 @@ button.bg-dark:focus {
 }
 
 .mb-0,
-.my-0 {
+.my-0,
+a {
   margin-bottom: 0 !important;
 }
 
@@ -9921,6 +9923,10 @@ p, a, .pixel-list {
   list-style-type: square;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* Set the border color */
 .custom-toggler.navbar-toggler {
   border-color: #007bff;
@@ -9933,6 +9939,7 @@ p, a, .pixel-list {
 
 #mainNav {
   background: rgba(255, 255, 255, 0.9);
+  z-index: 2;
 }
 
 .carousel {

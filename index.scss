@@ -38,6 +38,8 @@ p {
 
 a {
     @extend p;
+    @extend .my-0;
+    text-decoration: none !important;
 }
 
 /* Set the border color */ 
@@ -53,6 +55,7 @@ a {
 
 #mainNav {
     background: rgba(255, 255, 255, 0.9);
+    z-index: 2;
 }
 
 .carousel {
