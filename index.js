@@ -1,6 +1,9 @@
 // import 'is-in-viewport'
 
 $(document).ready(function() {
+    $('.carousel').carousel({
+        pause: false
+    })
     $(".nav-link").click(function() {
         try {
             var navbarHeight = $(this).closest("nav").outerHeight();
