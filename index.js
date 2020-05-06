@@ -8,7 +8,7 @@ $(document).ready(function() {
             var hash = url.substring(url.indexOf("#")+1);
             var p = $("#" + hash).first();
             var position = p.position().top;
-            var top = position - navbarHeight;
+            var top = position - navbarHeight + 1;
             $("html").scrollTop(top);
             return false;
         }
