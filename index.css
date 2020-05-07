@@ -7662,7 +7662,7 @@ a {
   padding-right: 3rem !important;
 }
 
-.pb-5,
+.pb-5, #bottom-proj,
 .py-5 {
   padding-bottom: 3rem !important;
 }
@@ -9964,6 +9964,10 @@ a {
   max-width: 400px;
 }
 
+.mobile-show {
+  display: none;
+}
+
 @media (max-width: 575.98px) {
   .shrink {
     display: none !important;
@@ -9971,6 +9975,18 @@ a {
 
   .experience-format {
     margin-left: -2rem !important;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-show {
+    display: inline;
+  }
+
+  #bottom-proj {
+    padding-bottom: 0 !important;
   }
 }
 
