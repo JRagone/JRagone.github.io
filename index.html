@@ -45,8 +45,7 @@
             </div>
             <p class="pt-2">
                 I'm a student-athlete majoring in computer science and minoring in physics
-                at the University of Michigan College of Engineering. I hope to program
-                as a video game developer someday.
+                at the University of Michigan College of Engineering. I hope to have a career in systems, particularly cloud computing.
             </p>
             <div class="row">
                 <div class="col-6">
@@ -105,7 +104,7 @@
                     I graduated from <a href="https://www.exeter.edu/" target="_blank">Phillips Exeter Academy</a> 
                     in the spring of 2017 and began attending
                     the University of Michigan the following fall. As a rising senior, I intend
-                    to graduate in the spring of 2021 with a BSE in Computer Science. Following
+                    to graduate in the spring of 2021 with a BSE in Computer Science and a minor in Physics. Following
                     undergraduate school, I plan to pursue a Master's Degree in Computer Science.
                 </p>
             </div>
@@ -113,7 +112,7 @@
                 <h2>
                     Experience
                 </h2>
-                <div class="row pt-2">
+                <div id="filtered" class="row pt-2">
                     <a href="https://www.filtered.ai/" target="_blank">
                         <div class="col-1">
                             <img class="square-logo img-fluid" src="images/filtered.jpeg">
@@ -141,7 +140,7 @@
                     </div>
                     <div class="col float-right">
                         <p style="text-align: right;">
-                            <i>Summer, 2019</i>
+                            <i>Summer, 2019 & 2020</i>
                         </p>
                     </div>
                 </div>
@@ -149,9 +148,10 @@
                     <div class="shrink" style="width: 78px;"></div>
                     <div class="experience-format col pl-5">
                         <ul class="pixel-list">
+                            <li>Structured the architecture of Filtered's first public API</li>
                             <li>Aided in the deployment of a custom Python Jupyter Notebook server for data science interviews</li>
-                            <li>Implemented Git submodules to fix version control issues for files shared between repos</li>
-                            <li>Researched unit testing frameworks and added Jest to the CI</li>
+                            <li>Researched unit testing frameworks and added AVA to the CI</li>
+                            <li>Integrated the Cronofy calendar API for users to schedule second round interviews</li>
                             <li>Resolved JIRA stories for front and back end features following MVC in HTML, CSS, JavaScript, MongoDB</li>
                             <li>Became confident in my ability to research, implement, and deploy product improvements and features</li>
                         </ul>
@@ -195,7 +195,7 @@
                         <ul class="pixel-list">
                             <li>Programmed interactive notification bots for Slack, GitHub, and Pivotal Tracker</li>
                             <li>Wrote integrations for the following CI/CDs: CircleCI, fastlane, and bitrise</li>
-                            <li>Became very comfortable with Python, Docker, Google Cloud, APIs, CI/CDs, and product deployment</li>
+                            <li>Became very comfortable with Python, Docker, Google Cloud Platform, APIs, CI/CDs, and product deployment</li>
                             <li>Delivered products on my own and learned about the lifestyle of a startup</li>
                         </ul>
                     </div>
@@ -247,6 +247,60 @@
                 <h2>
                     Projects
                 </h2>
+                <div class="row pt-2">
+                    <div class="col">
+                        <div class="project-preview pt-2">
+                            <a href="https://project-paladin.org/" target="_blank">
+                                <img src="images/project-paladin.jpeg" class="img-fluid rounded" alt="Project Paladin">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            <a href="https://project-paladin.org/" target="_blank">Project Paladin</a>
+                            <br>
+                            <i>Fall, 2020</i>
+                            <br>
+                            <span class="mobile-hide">
+                                To bring cloud gaming to people outside of North America and Central Europe, I created <a href="https://johnragone.medium.com/500-hours-of-free-4k-60-fps-cloud-gaming-with-gcp-and-moonlight-c796fa10f0a3" target="_blank">written</a> and <a href="https://youtu.be/kNZ6NhPJYfA" target="_blank">video</a> tutorials detailing how to set up <a href="https://moonlight-stream.org/" target="_blank">Moonlight</a> on <a href="https://cloud.google.com/gcp" target="_blank">Google Cloud Platform</a>. So far, several thousand have viewed the products of this research, and people across Latin America and Asia have applauded it as their cloud gaming solution.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mobile-show">
+                    <p>
+                        To bring cloud gaming to people outside of North America and Central Europe, I created <a href="https://johnragone.medium.com/500-hours-of-free-4k-60-fps-cloud-gaming-with-gcp-and-moonlight-c796fa10f0a3" target="_blank">written</a> and <a href="https://youtu.be/kNZ6NhPJYfA" target="_blank">video</a> tutorials detailing how to set up <a href="https://moonlight-stream.org/" target="_blank">Moonlight</a> on <a href="https://cloud.google.com/gcp" target="_blank">Google Cloud Platform</a>. So far, several thousand have viewed the products of this research, and people across Latin America and Asia have applauded it as their cloud gaming solution.
+                    </p>
+                </div>
+                <div class="row pt-2">
+                    <div class="col">
+                        <div class="project-preview pt-2">
+                            <a href="http://www.michiganrowing.org/" target="_blank">
+                                <img src="images/rowing-site.png" class="img-fluid rounded" alt="Michigan Rowing Website">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            <a href="http://www.michiganrowing.org/" target="_blank">Michigan Men&apos;s Rowing Website</a>
+                            <br>
+                            <i>Summer, 2020</i>
+                            <br>
+                            <span class="mobile-hide">
+                                While working at <a class="same-page-link" href="#filtered">Filtered</a> on the weekdays, I rebuilt and redesigned from scratch the entirety of the Michigan Men&apos;s rowing website on the weekends
+                                using <a href="https://nextjs.org/" target="_blank">Next.js</a>, a framework for React, and <a href="https://bulma.io/" target="_blank">Bulma</a>, a
+                                CSS library. As compensation, the Michigan Men&apos;s Rowing team made its commitment to the <a class="same-page-link" href="#motts">community service program at C.S. Mott Children's Hospital</a> a pillar of team culture.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mobile-show">
+                    <p>
+                        While working at <a class="same-page-link" href="#filtered">Filtered</a> on the weekdays, I rebuilt and redesigned from scratch the entirety of the Michigan Men&apos;s rowing website on the weekends
+                                using <a href="https://nextjs.org/" target="_blank">Next.js</a>, a framework for React, and <a href="https://bulma.io/" target="_blank">Bulma</a>, a
+                                CSS library. As compensation, the Michigan Men&apos;s Rowing team made its commitment to the <a class="same-page-link" href="#motts">community service program at C.S. Mott Children's Hospital</a> a pillar of team culture.
+                    </p>
+                </div>
                 <div class="row pt-2">
                     <div class="col">
                         <div class="project-preview pt-2">
@@ -504,7 +558,7 @@
                     <div class="col">
                         <p>
                             Version control, MVC, web applications, unit testing, APIs, technical documentation,
-                            Scrum, NoSQL
+                            Scrum, NoSQL, Operating Systems, UI Design
                         </p>
                     </div>
                 </div>
@@ -519,7 +573,7 @@
                         I row on the Michigan Men's Rowing team, serve as Web Master, and won the Team Spirit Award in 2019 and again in 2020.
                     </p>
                 </div>
-                <div class="pt-3">
+                <div id="motts" class="pt-3">
                     <img src="images/motts.jpg" class="img-fluid rounded" alt="Mott Children's Hospital">
                     <p>
                         On Thursdays, I volunteer at C.S. Mott Children's Hospital as a student-athlete, visiting patients.

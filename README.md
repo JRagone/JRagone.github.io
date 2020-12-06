@@ -6,7 +6,7 @@
 
 ## Libraries
 
-* [Boostrap](https://getbootstrap.com/) - A simple responsive front-end component library for developing with HTML, CSS, and JS
+* [Bootstrap](https://getbootstrap.com/) - A simple responsive front-end component library for developing with HTML, CSS, and JS
 
 * [Sass](https://sass-lang.com/) - A superset of CSS that functions as a preprocessor to provide more features to CSS
 
